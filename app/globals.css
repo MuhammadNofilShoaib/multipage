@@ -7,9 +7,29 @@
   --foreground: #171717;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.shadow {
+  box-shadow: 0px 0px 10px black;
+}
+
+.border {
+  border: 1px solid blue;
+}
+
+.grid-rows-main {
+  grid-template-rows: 100px 100x 100px;
+}
+
+.grid-row-two {
+  grid-template-rows: 100px 100px;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #00ccff2a;
     --foreground: #ededed;
   }
 }
